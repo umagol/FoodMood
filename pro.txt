@@ -1,0 +1,27 @@
+// reenter the pssword code in JS
+<script type="text/javascript">
+function checkPass() {
+var pass1 = document.getElementById('password');
+var pass2 = document.getElementById('password2');
+var message = document.getElementById('confirmMessage');
+
+var goodColor = "#fff";
+var goodColored = "#087a08";
+var badColor = "#fff";
+var badColored = "#ed0b0b";
+
+if(password.value == password2.value) {
+  password2.style.backgroundColor = goodColor;
+  message.style.color = goodColored;
+  message.innerHTML = "<i class='fa fa-check'></i>"
+}
+else {
+  password2.style.backgroundColor = badColor;
+  message.style.color = badColored;
+  message.innerHTML = "<i class='fa fa-close'></i>"
+}
+}  
+</script>
+
+******************************************************
+//
